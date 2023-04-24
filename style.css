@@ -30,7 +30,7 @@
 .add-item__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-item__wrapper {
   display: flex;
@@ -115,7 +115,7 @@
   width: 226px;
 }
 .section-item >    .input {
-  width: 226px
+  width: 226px;
 }
 .button-delete__icon {
   height: 2em;
@@ -127,14 +127,14 @@
 }
 
 /* Completed */
-.completed__label {
-  text-decoration: line-through
+.completed .section-item__label {
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .section-item__input {
-  display: none
+  display: none;
 }
 
 .section-item.section-item_edit > .section-item__input {
