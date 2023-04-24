@@ -39,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.section-item, .section-title {
+.section-item, 
+.section-title {
   list-style: none;
 }
-.input, .button{
+.input, 
+.button{
   outline: none;
 }
 .button {
@@ -125,7 +127,6 @@
 .button-delete__icon:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .completed .section-item__label {
   text-decoration: line-through;
